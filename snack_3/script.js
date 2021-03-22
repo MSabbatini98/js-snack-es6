@@ -30,7 +30,6 @@ function arrayIntervall(array, min, max){
 function getRandomUnique(min, max, rep) {
     max +=  1;
     rep -=  1;
-    var counter_f = 0;
     array_random = [];
     while (array_random.length <= rep) {
         random_value = Math.floor(Math.random() * (max - min)) + min;
